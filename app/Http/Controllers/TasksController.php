@@ -34,15 +34,12 @@ class TasksController extends Controller
     {
         //
         $task = new Task;
-        $task->content = $request->content;
-        $task->save();
+    
         
-        return redirect('/');
-        
-        // // メッセージ作成ビューを表示
-        // return view('tasks.create', [
-        //     'task' => $task,
-        // ]);
+        // メッセージ作成ビューを表示
+        return view('tasks.create', [
+            'task' => $task,
+        ]);
     }
 
     /**
