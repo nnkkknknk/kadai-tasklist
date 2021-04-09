@@ -25,3 +25,5 @@
         <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"></script>
     </body>
 </html>
+
+// 確認済み
