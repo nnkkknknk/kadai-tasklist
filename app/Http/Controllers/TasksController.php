@@ -111,9 +111,6 @@ class TasksController extends Controller
              //トップページへリダイレクトさせる
             return redirect('/');
         }
- 
-        
-        
         
     }
     
@@ -127,6 +124,7 @@ class TasksController extends Controller
         if (\Auth::id() === $task->user_id) {
             $task->delete();
         }
+        //必要か要検討
         else {
              //トップページへリダイレクトさせる
             return redirect('/');
