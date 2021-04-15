@@ -22,7 +22,7 @@
                     {!! Form::text('content', null, ['class' => 'form-control']) !!}
                 </div>
 
-                {!! Form::submit('更新', ['class' => 'btn btn-primary']) !!}
+                {!! Form::submit('作成', ['class' => 'btn btn-primary']) !!}
 
             {!! Form::close() !!}
         </div>
